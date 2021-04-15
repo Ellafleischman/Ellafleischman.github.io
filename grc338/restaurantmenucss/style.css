@@ -1,0 +1,38 @@
+/*CSS DOCUMENT*/
+body{
+    background-color: rgb(221, 237, 241);
+}
+h1 {
+    color:rgb(163, 83, 173);
+    font-size:xx-large;
+    font-family:Georgia;
+    padding-top:0.2em;
+    padding-bottom: 0.2em;
+    padding-right: 0.2m;
+    margin-inline-start: 0.5em;
+    border-bottom: 2px solid currentColor;
+}
+h2{ 
+    color:rgb(163, 83, 173);
+    font-size:x-large;
+    font-family: Georgia;
+    margin-inline-start: 0.7em;
+    padding-bottom:0em;
+}
+h3{
+    color:rgb(163, 83, 173);
+    font-family:Georgia;
+    margin-inline-start: 1em;
+}
+h4{
+    color: rgb(47,108,110)
+    font-family: 'Gill Sans';
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+li{
+    color: rgb(47,108,110);
+    font-family: 'Gill Sans';
+    padding-bottom: 1em;
+    max-width: 43ch;
+}
