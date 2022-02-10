@@ -1,0 +1,50 @@
+/*CSS document*/
+
+body {
+    background-color: rgb(245, 166, 91);
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-top: 1em;
+    margin-right: 1em;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 1.8em;
+    letter-spacing: 0.05em;
+}
+nav ul li a{
+    color: #222222;
+    text-decoration: none;
+}
+Main{
+    font-family: Georgia;
+}
+h3{
+    color: rgb(42, 43, 42);
+   text-decoration: none;
+}
+p{
+    color: rgb(42, 43, 42);
+   text-decoration: none;
+}
