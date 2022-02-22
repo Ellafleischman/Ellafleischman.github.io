@@ -1,50 +1,137 @@
 /*CSS document*/
-
 body {
-    background-color: rgb(245, 166, 91);
-}
-
-div.container {
-    max-width: 40em;
+    background-color:
+    }
+    div.container {
+    max-width: 65em;
     margin: auto;
-}
-
-figure {
+    margin-top: 2em;
+    }
+    section{
+    margin: 0 auto 3em;
+    }
+    figure {
     margin: 0;
-}
-
-img {
+    }
+    img {
     width: 100%;
     margin-top: 1em;
     margin-bottom: 1em;
-}
-
-ul {
+    }
+    
+    ul {
     list-style-type: none;
     padding: 0;
-}
-nav ul li{
+    }
+    nav ul li{
     display: inline;
     list-style-type: none;
-    margin-top: 1em;
+    margin-top: 0em;
     margin-right: 1em;
-    font-family: Georgia;
+    font-family: Impact;
     font-weight: bold;
     font-size: 1.8em;
-    letter-spacing: 0.05em;
-}
-nav ul li a{
+    letter-spacing: 0.06em;
+    }
+    nav ul li a{
     color: #222222;
     text-decoration: none;
-}
-Main{
+    }
+    Main{
     font-family: Georgia;
-}
-h3{
+    }
+    h3{
+    color: rgb(224, 137, 43);
+    text-decoration: none;
+    font-family: Impact;
+    letter-spacing: 0.06em;
+    }
+    h2{
+    color: rgb(224, 137, 43);
+    text-decoration: none;
+    font-family: Impact;    
+    letter-spacing: 0.05em;
+
+    }
+    p{
     color: rgb(42, 43, 42);
-   text-decoration: none;
-}
-p{
-    color: rgb(42, 43, 42);
-   text-decoration: none;
-}
+    text-decoration: none;
+    font-family: garamond;
+    }
+    h1{
+    width: 9em;
+    }
+    a{
+    text-decoration: none;
+    color:#222;
+    }
+    @media screen and (min-width: 60em){
+    div.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 2em;
+    }
+    header{
+    grid-column: 1/3;
+    margin-bottom: 1em;
+    }
+    main{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+    margin: 0em 1.5em 3em 0em;
+    }
+    section.mainstory{
+    grid-column: 1/4;
+    }
+    section.mainstory figure{
+    flex: 1 0 18em;
+    display: flex;
+    flex-direction:column;
+    margin: 0;
+    }
+    section.mainstory figure div {
+    flex: 1 0 18em;
+    background-image: url(firstphoto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }  
+    section.mainstory figure div img{
+    height: 100%;
+    opacity: 0;
+    }
+    section.mainstory figure figcaption{
+    flex: 0 0 3em;
+    }
+    section.mainstory h3{
+    flex:0 0 auto;
+    margin: 0;
+    }
+    section.mainstory p{
+    flex: 0 0 auto;
+    margin: 0;
+    }
+    aside{
+    grid-column: 2/3;
+    }
+    h3.aside{
+        margin-bottom: 0em;
+    }
+
+    footer{
+        grid-column: 1/3;
+    }
+    section.secondary{
+        padding-top: 0;
+        margin-top: 0;
+    }
+    section.tertiary{
+        margin-bottom: 2em;
+    }
+    figcaption{
+        font-style: italic;
+        font-size: smaller;
+    }
+    }
